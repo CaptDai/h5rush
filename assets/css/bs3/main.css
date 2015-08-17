@@ -1,0 +1,113 @@
+.m-header-top {
+    font-family: 'Microsoft YaHei';
+    border-bottom: 2px solid #cdb092;
+}
+.m-header-top-content {
+    min-height: 30px;
+    width: 1024px;
+    margin: 0 auto;
+}
+.m-lr-user-info {
+    margin: 0 0 0 4px;
+    line-height: 35px;
+    letter-spacing: 0.04em;
+}
+.lg-user {
+    font-weight: bold;
+}
+.lg-user a {
+    color: inherit;
+}
+.lg-user a:hover {
+    color: #c8000a;
+}
+.m-top-right {
+    list-style-type: none;
+    margin-top: 7px;
+}
+.m-top-right li {
+    float: left;
+    padding: 0 10px;
+}
+.cartnum {
+    width: 10px;
+    height: 10px;
+    font-size: 10px;
+    line-height: 10px;
+}
+.m-header-search {
+    height: 110px;
+    width: 1024px;
+    margin: 0 auto;
+}
+.m-header-logo {
+    cursor: pointer;
+    margin: 20px 0 0 0;
+}
+.m-header-title {
+    font-size: 36px;
+    margin-top: 40px;
+    font-family: "Microsoft YaHei";
+}
+.m-header-search-content {
+    margin-top: 50px;
+}
+.m-menu {
+    margin-top: 10px;
+    background: #f7f7f7;
+    border: 1px solid #dedede;
+}
+.m-menu-list {
+    width: 1024px;
+    height: 40px;
+    margin: 0 auto;
+    font-size: 14px;
+
+}
+.m-menu-item {
+    float: left;
+    color: #333;
+    width: 120px;
+    overflow: hidden;
+    margin: 6px 1px 0 8px;
+    height: 33px;
+}
+.m-all-books {
+    width: 140px;
+}
+.m-all-menu .bui-menu-item-hover,
+.m-menu-item:hover,
+.bui-menu-item-selected {
+    background: #e5e5e5 !important;
+    color: #666 !important;
+}
+.m-menu-item .bui-menu-item-selected {
+    border: 1px solid transparent;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin: 5px 0 0 7px;
+}
+.m-menu-item-inner {
+    text-align: center;
+    font-size: 16px;
+    padding: 6px 0 0 0;
+    height: 28px;
+    font-weight: 900;
+    font-family: tahoma,arial,"SimSun","Helvetica Neue",Helvetica,sans-serif;
+    letter-spacing: 0.1em;
+}
+.m-all-menu {
+    font-weight: 600;
+    font-size: 14px;
+    border-top: 0;
+    background: #f7f7f7;
+    border-color: #dedede;
+}
+.bui-pop-menu .bui-menu-item {
+    padding: 5px 30px;
+}
+.content {
+    width: 1024px;
+    margin: 20px auto;
+}
+

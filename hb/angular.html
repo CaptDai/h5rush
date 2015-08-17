@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en" ng-app>
+<head>
+    <meta charset="UTF-8">
+    <title>angular</title>
+    <script type="text/javascript" src="angular/angular.min.js"></script>
+</head>
+<body>
+<label>your name:</label><input type="text" ng-model="yourname" placeholder="input your name"/>
+<hr/>
+Welcome {{yourname || 'world'}}!
+<br/><br/><br/><br/><br/><br/><br/><br/>
+<label>a:</label><input type="text" ng-model="a"/><br/>
+<label>b:</label><input type="text" ng-model="b"/>
+<hr/>
+a + b = {{ a + b }}
+</body>
+</html>
